@@ -3,17 +3,6 @@ var _ = require('lodash');
 var profanity = require('profanity-util');
 var css = require('css');
 
-if (process.argv[2]) {
-    main();
-}
-
-function main() {
-    var filename = process.argv[2];
-    var codeTexts = parseCodeTexts(filename);
-    codeTexts = detectProfanity(codeTexts);
-    reportProfanityViolations(filename, codeTexts);
-}
-
 function addNewElementsToArray(oldArray, elements) {
     _.forEach(elements, function(e) {
         if (!_.find(oldArray, e)) {
