@@ -1,30 +1,33 @@
 {
-    "name": "solemn-css",
-    "version": "1.1.1",
-    "description": "Detects inappropriate language in your CSS.",
-    "main": "lib/solemn-css.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-        "coding",
-        "censorship",
-        "profanity",
-        "static analysis",
-        "css"
-    ],
-    "author": "Will Riley",
-    "license": "MIT",
-    "dependencies": {
-        "css": "^2.2.1",
-        "lodash": "^4.12.0",
-        "profane": "^1.1.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/willynilly/solemn-css.git"
-    },
-    "engines": {
-        "node": "*"
-    }
+  "name": "solemn-css",
+  "version": "1.2.0",
+  "description": "Detects inappropriate language in your CSS.",
+  "main": "lib/solemn-css.js",
+  "scripts": {
+    "test": "nodeunit test/test.js"
+  },
+  "keywords": [
+    "coding",
+    "censorship",
+    "profanity",
+    "static analysis",
+    "css"
+  ],
+  "author": "Will Riley",
+  "license": "MIT",
+  "dependencies": {
+    "css": "^2.2.1",
+    "lodash": "^4.12.0",
+    "profane": "^1.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willynilly/solemn-css.git"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "devDependencies": {
+    "nodeunit": "^0.9.1"
+  }
 }
