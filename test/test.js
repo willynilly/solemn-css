@@ -1,4 +1,4 @@
-var SolemnCSS = require('solemn-css');
+var SolemnCSS = require('../lib/solemn-css');
 var Profane = require('Profane');
 var _ = require('lodash');
 
